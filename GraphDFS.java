@@ -22,7 +22,38 @@ class GraphDFS {
     // DFS algorithm
     void DFS(int vertex) {
         visited[vertex] = true;
-        System.out.print(vertex + " ");
+        String node = "";
+        switch (vertex)
+        {
+            case 0:
+                node = "A";
+                break;
+            case 1:
+                node = "B";
+                break;
+            case 2:
+                node = "C";
+                break;
+            case 3:
+                node = "D";
+                break;
+            case 4:
+                node = "E";
+                break;
+            case 5:
+                node = "F";
+                break;
+            case 6:
+                node = "G";
+                break;
+            case 7:
+                node = "H";
+                break;
+            case 8:
+                node = "I";
+                break;
+        }
+        System.out.print(node + " ");
 
         Iterator<Integer> ite = adjLists[vertex].listIterator();
         while (ite.hasNext()) {

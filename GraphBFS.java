@@ -32,7 +32,39 @@ class GraphBFS
 
         while (queue.size() != 0) {
             s = queue.poll();
-            System.out.print(s + " ");
+
+            String node = "";
+            switch (s)
+            {
+                case 0:
+                    node = "A";
+                    break;
+                case 1:
+                    node = "B";
+                    break;
+                case 2:
+                    node = "C";
+                    break;
+                case 3:
+                    node = "D";
+                    break;
+                case 4:
+                    node = "E";
+                    break;
+                case 5:
+                    node = "F";
+                    break;
+                case 6:
+                    node = "G";
+                    break;
+                case 7:
+                    node = "H";
+                    break;
+                case 8:
+                    node = "I";
+                    break;
+            }
+            System.out.print(node + " ");
 
             Iterator<Integer> i = adjLists[s].listIterator();
             while (i.hasNext()) {
