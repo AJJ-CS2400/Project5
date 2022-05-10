@@ -1,7 +1,7 @@
 
-Contributions
+Contributions:
 
-Justin Ha
+Justin Ha:
 
 Rudimentary Update
 
@@ -9,13 +9,13 @@ Basic Graph Interface
 
 Vertex Interface
 
-Alondra Marin
+Alondra Marin:
 
 GraphBFS
 
 GraphDFS
 
-Jailyn Rivera
+Jailyn Rivera:
 
 Main Method
 
@@ -23,7 +23,7 @@ Queue Interface
 
 Stack Interface
 
-Features
+Features:
 
 Java Interface
 
