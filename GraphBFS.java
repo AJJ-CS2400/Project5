@@ -72,7 +72,7 @@ class GraphBFS
 
             //Printing out the characters
             System.out.print(node + " ");
-
+            //Makes sure no node gets visited twice 
             Iterator<Integer> i = adjLists[s].listIterator();
             while (i.hasNext())
             {
