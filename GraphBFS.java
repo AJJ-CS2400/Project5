@@ -1,5 +1,5 @@
 import java.util.*;
- 
+
 //This class is to implement the breadth first traversal.
 class GraphBFS
 {
